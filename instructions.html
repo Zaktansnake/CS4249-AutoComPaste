@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>CS4249 Assignment 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Welcome</a></li>
+                        <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
+                        <li class="active"><a href="instructions.html">Instructions</a></li>
+                        <li><a href="experiment.html">Experiment</a></li>
+                        <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Instructions</h1>
+                    <hr>
+                    <p>Thank you for completing the pre-questionnaire participant <span class="js-pid pid"></span>, please read the instructions below carefully to begin the experiment proper.</p>
+                    <p>You have our thanks for kindly volunteering your time to this experiment. This experiment consists of tasks that you are meant to carry out using both the Ctrl + C and Ctrl + V commands and the AutoComPaste software. You will be presented with a series of tasks to complete, where each task will require you to search through either a single or several articles for a phrase, sentence, or paragraph to be copied and pasted into an answer box.<p>
+                    <p>Provided below are several screenshots of a task that needs to be completed and the steps required to complete said task. Please read through each step carefully and if you need any assistance regarding the steps, please feel free to approach the assigned invigilator for this experiment.</p>
+                    <p>When a task begins, you will be presented with the following screen.</p>
+                    <img src="img/screen1.jpg" alt="screen1" style="max-width:100%;height:auto;">
+                    <p>To complete the assigned task using Ctrl+C and Ctrl+V, please follow the steps provided in the image below.</p>
+                    <img src="img/screen2.jpg" alt="screen2" style="max-width:100%;height:auto;">
+                    <p>To complete the assigned task using AutoComPaste, please follow the steps provided in the image below.</p>
+                    <img src="img/screen3.jpg" alt="screen3" style="max-width:100%;height:auto;">
+                    <p>As the time for each task to be completed will be recorded, you will first be asked to complete some practice trials before the recorded trials to be familiarized with AutoComPaste. If you have any enquiries during the experiment, please notify the assignment invigilator immediately for any assistance. If you have any additional questions or enquires about the research being conducted for this experiment, please send an e-mail to Mr. David Chong (a0116633@u.nus.edu).</p>
+
+                    <form class="form-inline">
+                        <button type="submit" class="btn btn-primary btn-lg">Next</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/DataStorage.js"></script>
+        <script src="js/ACPToolKit.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            $(function () {
+                $('form').submit(function (event) {
+                    event.preventDefault();
+                    window.location = 'experiment.html';
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1364 @@
+{
+    "experiments": [
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Practice 1",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Practice 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Practice 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is armature? The rotating or moving component of a magnetic circuit."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Practice 4",
+            "data_file": "data/texts.json",
+            "stimuli": "number of positive charges"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Practice 5",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Practice 6",
+            "data_file": "data/texts.json",
+            "stimuli": "What is armature? The rotating or moving component of a magnetic circuit."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 16 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 16 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC voltage? A voltage in which the polarity alternates."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 16 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 17 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 17 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 17 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 18 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 18 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 18 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 10 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "part of speech category that combines articles and"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 10 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "potential that exists across a forward"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 10 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "adjusted to produce a zero output"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 11 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "device that converts a radiated electromagnetic"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 11 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "voltage in which the polarity alternates"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 11 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "waves lose some of their energy as they travel through"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 12 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "external signal is required to change the output"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 12 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "AC output voltage and current for an amplifier"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 12 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "designed to pass a band of frequencies between"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 13 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "Equipment that will operate on either an AC or DC power source."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 13 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Name for an AC generator."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 13 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 14 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 14 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bandwidth?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 14 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 15 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is anode?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 15 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 15 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "The natural difference of potential that exists across a forward biased pn junction."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 7 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 7 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternator? Name for an AC generator."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 7 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 8 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is autotransformer? A single winding transformer where the output is taken from taps on the winding."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 8 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 8 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 9 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is ammeter? A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 9 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is avionics? Aviation electronics."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 9 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 1 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "bipolar junction transistor (BJT)"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 1 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "transform mechanical energy"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 1 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "material of a diode"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 2 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "amplitude of an action or signal"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 2 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "external signal is required to change"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 2 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "obligatory nature of articles makes them"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 3 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "size of a signal voltage or current"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 3 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "number system having only two symbols"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 3 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Measure of how easily AC will flow"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 4 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 4 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is binary?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 1 Condition 4 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 5 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplitude?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 5 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "A primary cell that delivers more current than a carbon-zinc cell."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 1 Condition 5 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 6 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 6 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Unit of electrical current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 1 Condition 6 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is barrier potential?"
+        },
+        {
+            "technique": "",
+            "granularity": "",
+            "numOfWindows": "BREAK",
+            "trialType": "Break after Block 1",
+            "data_file": "",
+            "stimuli": ""
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 12 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "AC output voltage and current for an amplifier"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 4 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is binary?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 4 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 4 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 5 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "A primary cell that delivers more current than a carbon-zinc cell."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 5 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 5 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplitude?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 6 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "Unit of electrical current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 6 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is barrier potential?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 6 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "A meter used to measure current."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 16 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 16 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC voltage? A voltage in which the polarity alternates."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 16 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 17 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 17 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 17 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 18 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 18 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 18 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 10 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "adjusted to produce a zero output"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 10 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "part of speech category that combines articles and"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 10 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "potential that exists across a forward"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 11 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "waves lose some of their energy as they travel through"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 11 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "device that converts a radiated electromagnetic"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 11 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "voltage in which the polarity alternates"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 12 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "designed to pass a band of frequencies between"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 12 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "external signal is required to change the output"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 13 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "Name for an AC generator."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 13 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 13 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Equipment that will operate on either an AC or DC power source."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 14 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bandwidth?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 14 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 14 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 15 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 15 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "The natural difference of potential that exists across a forward biased pn junction."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 15 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is anode?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 7 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 7 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternator? Name for an AC generator."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 7 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 8 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 8 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 8 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is autotransformer? A single winding transformer where the output is taken from taps on the winding."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 9 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is avionics? Aviation electronics."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 9 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 9 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is ammeter? A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 1 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "material of a diode"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 1 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "bipolar junction transistor (BJT)"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 2 Condition 1 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "transform mechanical energy"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 2 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "obligatory nature of articles makes them"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 2 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "amplitude of an action or signal"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 2 Condition 2 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "external signal is required to change"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 3 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "Measure of how easily AC will flow"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 3 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "size of a signal voltage or current"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 2 Condition 3 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "number system having only two symbols"
+        },
+        {
+            "technique": "",
+            "granularity": "",
+            "numOfWindows": "BREAK",
+            "trialType": "Break after Block 2",
+            "data_file": "",
+            "stimuli": ""
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 16 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 16 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 16 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC voltage? A voltage in which the polarity alternates."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 17 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 17 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is binary? A number system having only two symbols, 0 and 1. A base 2 number system."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 17 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is barrier potential? The natural difference of potential that exists across a forward biased pn junction."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 18 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 18 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 18 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 10 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "potential that exists across a forward"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 10 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "adjusted to produce a zero output"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 10 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "part of speech category that combines articles and"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 11 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "voltage in which the polarity alternates"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 11 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "waves lose some of their energy as they travel through"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 11 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "device that converts a radiated electromagnetic"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 12 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "AC output voltage and current for an amplifier"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 12 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "designed to pass a band of frequencies between"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 12 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "external signal is required to change the output"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 13 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 13 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Equipment that will operate on either an AC or DC power source."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 13 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Name for an AC generator."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 14 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 14 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 14 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bandwidth?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 15 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "The natural difference of potential that exists across a forward biased pn junction."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 15 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is anode?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 15 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 7 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 7 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternator? Name for an AC generator."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 7 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC power supply? Power supply that delivers an AC voltage."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 8 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is autotransformer? A single winding transformer where the output is taken from taps on the winding."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 8 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 8 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bipolar junction transistor? (BJT), A three terminal device in which emitter to collector current is controlled by base current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 9 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is ammeter? A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 9 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 9 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is avionics? Aviation electronics."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 1 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "transform mechanical energy"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 1 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "bipolar junction transistor (BJT)"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 1 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "material of a diode"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 2 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "amplitude of an action or signal"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 2 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "external signal is required to change"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 2 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "obligatory nature of articles makes them"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 3 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "size of a signal voltage or current"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 3 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "number system having only two symbols"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 3 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Measure of how easily AC will flow"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 4 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 4 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "What is binary?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Single Window",
+            "trialType": "Block 3 Condition 4 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 5 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplitude?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 5 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "A primary cell that delivers more current than a carbon-zinc cell."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Double Windows",
+            "trialType": "Block 3 Condition 5 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 6 Trial 1",
+            "data_file": "data/texts.json",
+            "stimuli": "A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 6 Trial 2",
+            "data_file": "data/texts.json",
+            "stimuli": "Unit of electrical current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "numOfWindows": "Quintuple Windows",
+            "trialType": "Block 3 Condition 6 Trial 3",
+            "data_file": "data/texts.json",
+            "stimuli": "What is barrier potential?"
+        }
+    ]
+}

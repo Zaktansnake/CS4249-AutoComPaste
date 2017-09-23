@@ -1,0 +1,239 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>CS4249 Assignment 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Welcome</a></li>
+                        <li class="active"><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
+                        <li><a href="instructions.html">Instructions</a></li>
+                        <li><a href="experiment.html">Experiment</a></li>
+                        <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Pre-Experiment Questionnaire</h1>
+                    <hr>
+                    <p>Please fill in the following questionnaire before we begin the experiment. The questions in this questionnaire will allow the team to profile each participant so that we can arrive at suitable conclusions based on each participant’s capabilities.</p>
+                    <p>The personal data recorded in this questionnaire will only be used for the sole purpose of deriving results from the experiment and will not be distributed to any third-parties.</p>
+                    <p>The following will be your Participant ID for the remainder of this experiment: <span class="js-pid pid"></span></p>
+
+                    <form id="pre-expt-form">
+                        <div class="form-group">
+                            <label for="q1">Q1: Age (Please select one)</label>
+                            <select class="form-control" name="age">
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q2">Q2: Gender (Please select one)</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="gender" id="Male" value="Male">
+                                Male
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="gender" id="Female" value="Female">
+                                Female
+                              </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="gender" id="Others" value="Others">
+                                    Others
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="q3">Q3: What is your highest attained education level? (Please select one)</label>
+                            <select class="form-control" name="education">
+                                <option value="O-Levels">O-Levels</option>
+                                <option value="N-Levels">N-Levels</option>
+                                <option value="A-Levels">A-Levels</option>
+                                <option value="IB Diploma">IB Diploma</option>
+                                <option value="ITE Certificate">ITE Certificate</option>
+                                <option value="Polytechnic Diploma">Polytechnic Diploma</option>
+                                <option value="University Degree">University Degree</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q4">Q4: Are you familiar with the following keyboard shortcuts? (Please tick the options that you are familiar with.)</label>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+C">
+                                    Ctrl+C
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+V">
+                                    Ctrl+V
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+X">
+                                    Ctrl+X
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+Z">
+                                    Ctrl+Z
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+A">
+                                    Ctrl+A
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+Alt+Tab">
+                                    Ctrl+Alt+Tab
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Alt+Tab">
+                                    Alt+Tab
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Alt+F4">
+                                    Alt+F4
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Alt+F8">
+                                    Alt+F8
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Alt+Esc">
+                                    Alt+Esc
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Alt+Enter">
+                                    Alt+Enter
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Alt+Spacebar">
+                                    Alt+Spacebar
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+F4">
+                                    Ctrl+F4
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+D">
+                                    Ctrl+D
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+R">
+                                    Ctrl+R
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+Y">
+                                    Ctrl+Y
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+arrowkey">
+                                    Ctrl+arrowkey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+arrowkey+Spacebar">
+                                    Ctrl+arrowkey+Spacebar
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+Esc">
+                                    Ctrl+Esc
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="literacy" value="Ctrl+Shift+Esc">
+                                    Ctrl+Shift+Esc
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/DataStorage.js"></script>
+        <script src="js/ACPToolKit.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            $(function () {
+                $('#pre-expt-form').submit(function (event) {
+                    event.preventDefault();
+                    var formResponses = $(this).serializeArray();
+                    // Do your own form validation here.
+                    ACPToolKit.downloadFormData(formResponses, 'pre');
+                    window.location = 'instructions.html';
+                });
+            });
+        </script>
+    </body>
+</html>
